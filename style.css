@@ -1,0 +1,61 @@
+#name {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: antiquewhite;
+}
+
+#podpis {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: antiquewhite;
+}
+
+#number {
+  color: rgb(230, 186, 124);
+  text-align: left;
+}
+
+#bg {
+  background-image: url("./pictures/pica2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shimeji-workArea {
+  position: fixed;
+  background: transparent;
+  z-index: 2147483643;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  transform: translate(0px, 0px);
+  pointer-events: none;
+}
+
+#peperoni {
+  background-image: url("pepeoni.webp");
+}
+#cart {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 250px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#cart h2 {
+  display: flex;
+  align-items: center;
+}
+
+#cart h2 img {
+  margin-right: 10px;
+}
